@@ -78,6 +78,6 @@ The engine runs every time. Expert modules supply situation patterns, mental mod
 
 ## More Experts
 
-This repo contains 5 experts. The full system has 85+ experts covering strategy, negotiation, systems thinking, management, health, writing, and more.
+This repo contains 5 experts. More available at [askroundtable.com](https://askroundtable.com).
 
 → [askroundtable.com](https://askroundtable.com)
